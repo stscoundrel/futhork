@@ -1,4 +1,5 @@
 import { getRuneMapping } from './mappings/rune-mapping';
+import { getLetterMapping } from './mappings/letter-mapping';
 
 const transform = (content: string, dictionary: Map<string, string>) : string => {
   let result = '';
@@ -24,6 +25,14 @@ export const runesToLetters = (content: string) : string => {
   return result;
 };
 
+export const lettersToRunes = (content: string) : string => {
+  const letterMapping = getLetterMapping();
+  const result = transform(content, letterMapping);
+
+  return result;
+};
+
 export default {
   runesToLetters,
+  lettersToRunes,
 };
