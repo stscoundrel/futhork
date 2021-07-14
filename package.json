@@ -1,8 +1,8 @@
 {
-  "name": "typescript-template",
+  "name": "futhork",
   "version": "1.0.0",
-  "description": "Template repo for generic TypeScript /  Node.js library with tests & lint",
-  "repository": "https://github.com/stscoundrel/typescript-template.git",
+  "description": "Transform latin letters to Futhork (medieval) runes & vice versa",
+  "repository": "https://github.com/stscoundrel/futhork.git",
   "author": "stscoundrel <silvennoinen.sampo@gmail.com>",
   "license": "MIT",
   "private": false,
