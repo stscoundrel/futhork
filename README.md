@@ -3,9 +3,9 @@
 Transform latin letters to Futhork runes & vice versa
 
 Other runic alphabets:
-[Younger Futhark](https://github.com/stscoundrel/younger-futhark)
-[Elder Futhark](https://github.com/stscoundrel/elder-futhark)
-[Futhorc (Anglo-Saxon runes)](https://github.com/stscoundrel/futhorc)
+- [Younger Futhark](https://github.com/stscoundrel/younger-futhark)
+- [Elder Futhark](https://github.com/stscoundrel/elder-futhark)
+- [Futhorc (Anglo-Saxon runes)](https://github.com/stscoundrel/futhorc)
 
 ### Install
 
