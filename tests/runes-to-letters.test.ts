@@ -9,4 +9,11 @@ describe('Runes to letters transformation tests', () => {
 
     expect(result).toBe(expected);
   });
+
+  test('Does not transform non-matched characters', () => {
+    const notRunes = '12345-6789';
+    const result = futhork.runesToLetters(notRunes);
+
+    expect(result).toBe(notRunes);
+  });
 });
