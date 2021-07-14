@@ -35,4 +35,6 @@ export const lettersToRunes = (content: string) : string => {
 export default {
   runesToLetters,
   lettersToRunes,
+  getRuneMapping,
+  getLetterMapping,
 };
