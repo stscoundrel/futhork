@@ -2,8 +2,8 @@ import futhork from '../src';
 
 describe('Runes to letters transformation tests', () => {
   test('Transforms runes to letters', () => {
-    const runes = 'ᚠᚢᚦᚮᚱᚴᚼᚿᛁᛆᛌᛋᛐᛏᛒᛘᛚᛦᚯᛅᚰᛕ';
-    const expected = 'fuþorkhniassttbmlyøæǫᴘ';
+    const runes = 'ᚠᚢᚦᚮᚱᚴᚼᚿᛁᛆᛌᛋᛐᛏᛒᛘᛚᛦᚯᛅᚰᛕᚽ';
+    const expected = 'fuþorkhniassttbmlyøæǫᴘe';
 
     const result = futhork.runesToLetters(runes);
 
