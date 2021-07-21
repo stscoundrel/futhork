@@ -29,6 +29,7 @@ export const getLetterMapping = (): Map<string, string> => {
   letterMapping.set('t', 'ᛏ');
   letterMapping.set('u', 'ᚢ');
   letterMapping.set('ú', 'ᚢ');
+  letterMapping.set('ü', 'ᚢ');
   letterMapping.set('v', 'ᚠ');
   letterMapping.set('w', 'ᚠ');
   letterMapping.set('x', 'ᛋ');
