@@ -18,7 +18,7 @@ export const getRuneMapping = (): Map<string, string> => {
   runeMapping.set('ᛘ', 'm');
   runeMapping.set('ᛚ', 'l');
   runeMapping.set('ᛦ', 'y');
-  runeMapping.set(':', '');
+  runeMapping.set(':', ' ');
 
   // Sting diacritic secondary sounds.
   runeMapping.set('ᚵ', 'g');
