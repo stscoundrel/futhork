@@ -1,6 +1,6 @@
 {
   "name": "futhork",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Transform latin letters to Futhork (medieval) runes & vice versa",
   "repository": "https://github.com/stscoundrel/futhork.git",
   "author": "stscoundrel <silvennoinen.sampo@gmail.com>",
